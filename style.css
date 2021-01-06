@@ -65,6 +65,7 @@ body::-webkit-scrollbar {
 .heading__section2--1{
     animation:bounceInRight;
     animation-duration: 2s;
+    margin-left: 0;
 }
 
 .heading__section2--2{

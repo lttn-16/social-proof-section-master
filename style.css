@@ -1,0 +1,148 @@
+body{
+    font-family: 'Spartan', sans-serif;
+    background-image: url("./images/bg-pattern-top-desktop.svg"), url("./images/bg-pattern-bottom-desktop.svg");
+    background-position: -17% 0, right bottom;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+    min-height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container-fuild{
+    
+    padding: 7% 9%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* heading section 1 */
+
+.heading{
+    margin-bottom: 5%;
+}
+
+.heading__section1__title{
+    margin-right: 33%;
+    font-family: 'Spartan', sans-serif;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    animation: bounceInLeft;
+    animation-duration: 2s;
+}
+
+.heading__section1__description{
+    margin-right: 10%;
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+    animation: bounceInLeft;
+    animation-duration: 2s;
+}
+
+/* heading section 2 */
+
+.heading__section2__all{
+    background-color: hsl(300, 24%, 96%);
+    padding: 3% 5%;
+    width: 90%;
+    border-radius: 8px;
+    margin-bottom: 3%;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.heading__section2__icon{
+    margin-right: 7%;
+}
+
+.heading__section2__icon--padding{
+    padding-right: 1%;
+}
+
+.heading__section2--1{
+    animation:bounceInRight;
+    animation-duration: 2s;
+}
+
+.heading__section2--2{
+    margin-left: 8%;
+    animation:bounceInRight;
+    animation-duration: 2s;
+}
+
+.heading__section2--3{
+    margin-left: 17%;
+    animation:bounceInRight;
+    animation-duration: 2s;
+}
+
+/* testimonial section */
+
+.card{
+    background-color:  hsl(300, 43%, 22%);
+    padding: 5% 3% 2% 4%;
+    border-radius: 3%;
+}
+
+.card-body__avatar{
+    width: 12%;
+    border-radius: 100%;
+    float: left;
+}
+
+.card-body__info{
+    margin-left: 20%;
+}
+
+.card-body__name{
+    color: hsl(0, 0%, 100%);
+    font-size: 80%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    font-weight: 700;
+}
+
+.card-body__sub{
+    color: hsl(333, 80%, 67%);
+    font-size: 80%;
+}
+
+.card-body__description{
+    color:  hsl(300, 24%, 96%);
+    margin-top: 10%;
+    font-size: 13px;
+    line-height: 180%;
+}
+
+
+.testimonial__2{
+    margin-top: 2%;
+}
+
+.testimonial__3{
+    margin-top: 4%;
+}
+
+/* animation testimonial */
+
+.testimonial__1:hover, .testimonial__1:focus, .testimonial__1:active{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.testimonial__2:hover, .testimonial__2:focus, .testimonial__2:active{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.testimonial__3:hover, .testimonial__3:focus, .testimonial__3:active{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
